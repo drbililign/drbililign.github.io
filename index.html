@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Researcher's Profile</title>
+  <style>
+    /* Basic Reset and Body Styling */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 20px auto;
+    }
+    /* Profile Section */
+    .profile-section {
+      display: flex;
+      flex-wrap: wrap;
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .profile-image {
+      flex: 1;
+      min-width: 250px;
+      margin-right: 20px;
+    }
+    .profile-image img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    .posts {
+      flex: 2;
+      min-width: 300px;
+    }
+    .posts h2 {
+      margin-bottom: 15px;
+    }
+    .posts article {
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+    }
+    .posts article:last-child {
+      border-bottom: none;
+    }
+    .posts h3 {
+      margin-bottom: 8px;
+      color: #444;
+    }
+    /* Research Works Section */
+    .research-section {
+      background: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .research-section h2 {
+      margin-bottom: 15px;
+    }
+    .research-list {
+      list-style: none;
+    }
+    .research-list li {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .research-list li:hover {
+      background: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ዶ/ር ቢልልኝ</h1>
+  </header>
+  
+  <div class="container">
+    <!-- Profile Section: Image and Posts -->
+    <section class="profile-section">
+      <div class="profile-image">
+        <img src="Doctor.jpg" alt="Researcher Image" />
+      </div>
+      <div class="posts">
+        <h2>ልጥፍ</h2>
+        <article>
+          <h3>የሃሰት መድሃኒትመድሃኒት</h3>
+          <p>አንዳንድ ዱርዬዎች የዶክተር ቢልልኝን ዝና በመጠቀም ገንዘብ ለማግኘት በሚል ተንካሻ ምክንያት ሰሜን እያጠፉ እንደሆነ ደርሰንበታል :: 
+            እኔ ለማንም መጥፎ ወይም መርዛማ ነገር ጠጣ ብዬ አልሰጠሁም ::
+            ሁሉም ምርቶቼ በቂ ጥናትና ምርምር የተደረገባቸው ናቸው።
+            ጉዳዩ በፖሊስ እጅ ስለሆነ ከዚህ በላይ መናገር አልችልም ::</p>
+        </article>
+        <article>
+          <h3>ዚምብዋብዌ</h3>
+          <p>ከዛሬ ጀምሮ ኩሩውን የዚምብዋብዌ ህዝብ ማገልገል ጀምርያለው።
+            በዛሬው እላትም በፓርላማው ላይ ከሰራዋችው ጥናቶች ውስጥ አንዱን አቅርብያለው።
+            ኩሩውን የዚምብዋብዌ ህዝብ በሙሉ ልቤ ለማገልገል ዝግጁ ነኝ።</p>
+        </article>
+        <article>
+          <h3>የአፍሪካ ህብረት ስብሰባ</h3>
+          <p>በዛሬው ዕለት የአፍሪካ ህብረት ስብሰባ ከመጀመሩ በፊት ከሰነፉ የኢትዮጵያ መንግስት ጋር አጠር ያለ ውይይት አድርገን ነበር፣ በውይይቱ ላይ የኢትዮጵያ መንግስት በተቃራኒ ፓርቲዎች ላይ የሚያደርሰውን የሰብአዊ መብት ጥሰት እንዲያቆም ጸና ያለ ማስጠንቀቂያ ሰጥቻለሁ። 
+
+            በተጨማሪም እንደ አውሮፓውያን አቆጣጠር በ2025 ስለሚታተመው ጥናቴ አጠር ያለ ቅድመ ማብራሪያ ሰጥቻለሁ</p>
+        </article>
+      </div>
+    </section>
+    
+    <!-- Research Works Section -->
+    <section class="research-section">
+      <h2>ጥናትና ምርምሮች</h2>
+      <ul class="research-list">
+        <li>የቤንች እኮ ማህበረሰብ ሽንት ቤት አጠቃቀም የሚያስተምረን አስራ አምስት ጠቃሚ እይታዎች።።</li>
+        <li>እንደ ሻኪሶ ማህበረሰብ ህጻናት ዛፍ ላይ ተንጠላጥሎ መፀዳዳት ምን ፋይዳ አለው?</li>
+        <li>የዚምብዋብዌ ኢኮኖሚ ከሽንት ቤት እስከ ቤተመንግስት</li>
+        <li>አፍሪካ ግማታም ሽንት ቤት ወይስ ቆንጆና ማራኪ ሳሎን?</li>
+      </ul>
+    </section>
+  </div>
+  
+  <script>
+    // JavaScript for simple interactivity:
+    // When a research title is clicked, an alert will display the title.
+    document.addEventListener("DOMContentLoaded", function() {
+      const researchItems = document.querySelectorAll('.research-list li');
+      researchItems.forEach(item => {
+        item.addEventListener('click', () => {
+          alert("You clicked on: " + item.textContent);
+        });
+      });
+    });
+  </script>
+</body>
+</html>
